@@ -1,0 +1,66 @@
+{
+	"info": {
+		"_postman_id": "e13e9e09-57a9-4c96-8921-f435c91bbb29",
+		"name": "G3M3_4_sprint2",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "https://ticdrive.herokuapp.com/listfiles/",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://ticdrive.herokuapp.com/listfiles/",
+					"protocol": "https",
+					"host": [
+						"ticdrive",
+						"herokuapp",
+						"com"
+					],
+					"path": [
+						"listfiles",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "https://ticdrive.herokuapp.com/uploadfiles",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "archivo",
+							"type": "file",
+							"src": "/C:/Users/David/Desktop/Ejercicios Python.docx"
+						}
+					],
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://ticdrive.herokuapp.com/uploadfiles",
+					"protocol": "https",
+					"host": [
+						"ticdrive",
+						"herokuapp",
+						"com"
+					],
+					"path": [
+						"uploadfiles"
+					]
+				}
+			},
+			"response": []
+		}
+	],
+	"protocolProfileBehavior": {}
+}
